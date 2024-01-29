@@ -1,0 +1,162 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge,chrome-1"/>
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+  </head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'arial';
+    text-align: center;
+    background-color: rgb(211, 210, 210);
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(green, #062D00);
+  position: fixed;
+}
+.logo{
+  width: 30%;
+  float: left;
+  text-align: left;
+  line-height: 100px;
+}
+.logo a{
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'arial';
+  color: white;
+  letter-spacing: 4px;
+
+}
+nav{
+  float: right;
+  line-height: 100px;
+}
+nav a{
+  text-decoration: none;
+  font-family: 'arial';
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: whitesmoke;
+  padding: 36px 10px;
+  margin: 0 1px;
+  font-weight: 500;
+}
+nav a:hover{
+  background: whitesmoke;
+  color:black; 
+}
+.banner-area{
+  background-image: url(Banner.jpeg);
+  background-size: cover;
+  background-position: center center;
+  top: 100px;
+  height: 65vh;
+  width: 100%;
+  position: fixed;
+}
+.banner-area:after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: green;
+  opacity: .2;
+  z-index: -1;
+}
+.banner-area h2{
+  text-align: right;
+  padding-right: 6%;
+  padding-top: 3%;
+  font-size: 80px;
+  color: white;
+}
+.banner-area h3{
+  text-align: right;
+  padding-right: 6.2%;
+  font-size: 70px;
+  color: white;
+}
+.content-area{
+  width: 100%;
+  height: 800px;
+  position: relative;
+  background: rgb(211, 210, 210);
+  top: 550px;
+}
+.content-area h2{
+  font-size: 30px;
+  margin: 0;
+  padding-top: 30px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+.content-area p{
+  padding: 2% 0;
+  line-height: 30px;
+  text-align: left;
+  margin-right: 900px;
+}
+.banner2-area{
+  background-color: black;
+  background-size: cover;
+  background-position: center center;
+  top: 50px;
+  height: 100vh;
+  width: 100%;
+}
+
+</style>
+<body>
+  <div class="box-area">
+    <header> 
+      <div class="wrapper">
+
+        <div class="logo">
+          <a href="#">A.C.E</a>
+        </div>
+
+        <nav>
+          <a href="#">Home</a>
+          <a href="infoPage.html">Info</a>
+          <a href="sources.html">Sources</a>
+        </nav>
+
+      </div>
+    </header>
+
+    <div class="banner-area">
+      <h2> A cleaner home,</h2>
+      <h3>A Cleaner Earth </h3>
+    </div>
+
+    <div class="content-area">
+      <div class="wrapper">
+        <h2>As science progresses<br> our homes should evolve too<br></h2>
+
+        <p>
+          With the growing efficiency and continuous growth of technology, homeowners here in the U.S need to help keep our planet safe from our own actions. So that, is what A.C.E is for. Helping homeowners decide the best decisions for themselves, their houses, and their families.</p>
+      </div>
+
+      <div class="banner2-area">
+        
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
